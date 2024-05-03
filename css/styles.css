@@ -1,0 +1,180 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+*:focus {
+	outline-offset: 3px;
+	outline: 2px dotted #ff7500;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	color: #000000;
+}
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 1.2;
+	font-size: 13px;
+	border: none;
+	background-color: #ff7500;
+	cursor: pointer;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: 0.4s ease;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn:active {
+	opacity: 0.6;
+}
+/* site-header start */
+.site-header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 5px solid #ff7500;
+}
+.site-header-container {
+	display: flex;
+	align-items: center;
+}
+
+.site-logo {
+	width: 227px;
+	height: 59;
+	margin-right: auto;
+	transition: opacity 0.4s ease;
+}
+
+.site-logo:hover {
+	opacity: 0.8;
+}
+.site-logo:active {
+	opacity: 0.6;
+}
+
+.site-nav {
+	margin-right: 32px;
+}
+.site-nav-list {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	margin-right: 32px;
+	list-style: none;
+}
+
+.site-nav-item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.site-nav-link {
+	color: #000;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	font-size: 13px;
+	transition: 0.4s;
+}
+
+.site-nav-link-active {
+	padding-bottom: 4px;
+	border-bottom: 3px solid #ff7500;
+}
+.site-nav-link:hover {
+	color: #ff7500;
+}
+
+.site-nav-link:active {
+	color: #ff7500;
+	opacity: 0.6;
+}
+
+.hero {
+	background-color: #252420;
+	color: #fff;
+	padding: 40px;
+	padding-bottom: 40px;
+}
+
+.hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-info {
+	max-width: 387px;
+	width: 100%;
+}
+.hero-line {
+	display: inline-block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-bottom: 40px;
+}
+
+.hero-title {
+	margin-bottom: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.hero-text {
+	margin-bottom: 32px;
+}
+
+.hero-img-wrapper img {
+	border-radius: 8px;
+}
